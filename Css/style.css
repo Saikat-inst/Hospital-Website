@@ -1,0 +1,213 @@
+.logo{
+  
+    margin-left: 8%;
+ }
+ .contdoc li{
+     list-style: none;
+     padding:5px;
+     
+ }
+ .contdoc li a{
+     text-decoration: none;
+ }
+ .container{
+     width: 100%;
+     margin:0%;
+ }
+ 
+ .slide_item{
+     height:100%;
+     width:100%;
+ }
+ .appointment{
+     padding:40px;
+     background-color:#253e61;
+     margin:0.5%;
+ }
+ 
+ .widget{
+     padding:50px 0;
+ 
+ }
+ .widget-img img{
+     display: inline-block;
+     height: auto;
+      width: 70%;
+     padding: 4px;
+     line-height: 1.428571429;
+     background-color: #ffffff;
+     border: 1px solid #dddddd;
+     border-radius: 50%;
+     -webkit-transition: all 0.2s ease-in-out;
+     transition: all 0.2s ease-in-out;
+    
+     
+ }
+ .widget-img img:hover
+ {
+     transform: scale(1.1);
+ }
+ @media (max-width: 767px) and (min-width: 280px){
+     .widget-img img{
+         margin-top:10%;
+         width:100%;
+         border-radius:50%;
+         
+     }
+     
+ }
+ .doctor{
+     padding: 60px;
+     background-color: #f9f9f9;
+    
+     
+ 
+ }
+ .doctor h4{
+     font-size: 40px;
+     color: #0f2b51;
+     text-align: center;
+     font-family: Montserrat;
+     font-weight: 400;
+     font-style: normal;
+ }
+ .doctor p{
+     text-align: center;
+     border-bottom: 1px solid #e1e1e1;
+     position: relative;
+     padding-bottom: 20px;
+     font-size: 18px;
+ }
+ .card-text{
+     font-size: 15px;
+ }
+ .card-title h3{
+    font-weight: 50;
+    color:blue;
+ }
+ .card-title h3:hover{
+     color:red;
+  }
+ .card-block img{
+     transition: 1s;
+ }
+ .card-block img:hover{
+     transform: scale(1.1);
+    
+ }
+ .button{
+     margin:3%;
+ }
+ .widget1{
+     padding: 60px;
+   
+ }
+ .widget1 h2{
+     text-align: center;
+     color: #0f2b51;
+     font-size: 40px;
+     position: relative;
+     padding-top: 25px;
+     margin-bottom: 20px;
+     padding-bottom: 25px;
+ } 
+ .widget1-img img{
+     width:80%;
+     cursor:pointer;
+     position: relative;
+     transition:1s;
+     
+     
+ }
+ .widget1-img img{
+    cursor:pointer;
+    position: relative;
+     transition:1s;
+    
+     
+ }
+ .widget1-img img:hover
+ {
+     transform: scale(1.1);
+ }
+ @media (max-width: 767px) and (min-width: 280px){
+     .widget1 h2{
+         font-size: 25px;
+     }
+ }
+ 
+ .menu{
+     padding:60px;
+     
+    
+ }
+ 
+ .about li{
+    list-style: none;
+    background-color: #e8e8e8;
+    padding:20px;
+    display:block;
+    width:250px;
+    margin-bottom: 10px;
+    margin-left:-38px;
+    
+ }
+ .about ul li.active {
+    background-color: red;
+ }
+ .about li:hover{
+    cursor:hand;
+    background-color: red;
+    color:white;
+ }
+ .about li a:hover{
+     color:white;
+ }
+ .about li a{
+    color:black;
+    text-decoration: none;
+     
+ }
+ .help-banner{
+     background: #2980b9;
+     width: 100%;
+     padding: 20px;
+     margin-top: 30px;
+     color: #fff;
+ 
+ }
+ 
+ .help-banner i:hover{
+     cursor: pointer;
+     color:red;
+     
+     
+ }
+ .help-banner h4:hover{
+     cursor: pointer;
+     color: red;
+ }
+ 
+ .banner{
+     background-image:url(../image/b.jpg);
+     background-position:center;
+     background-size: cover;
+     background-attachment: fixed;
+     padding-top:104px;
+     
+ 
+ }
+ .banner-highlight{
+     text-align: center;
+     padding:70px 0;
+     background: rgba(0,0,0,0.6);
+     color: white;
+     
+     
+ }
+ .footer {
+     padding: 40px 0 15px;
+     line-height: 23px;
+     background-color: #e8e8e8;
+     
+ }

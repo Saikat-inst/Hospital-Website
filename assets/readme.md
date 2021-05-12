@@ -1,0 +1,1 @@
+#here to add assets files like css, javascripts and images
